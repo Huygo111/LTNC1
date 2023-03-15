@@ -1,0 +1,14 @@
+1.
+*p3 = B, p3 = 0x5678
+*p3 = A, p3 = 0x1234
+*p1 = B, p1 = 0x1234
+
+2.
+*p = 5
+
+3.
+char c = ‘C';
+double *p = &c;
+
+Con trỏ khai báo trỏ đến kiểu double nhưng lại khởi tạo trỏ đến địa chỉ của c
+mà c là kiểu char. Nên xảy ra lỗi.
